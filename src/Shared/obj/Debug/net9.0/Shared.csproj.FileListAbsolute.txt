@@ -1,0 +1,17 @@
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Shared.deps.json
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Shared.dll
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Shared.pdb
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Consul.dll
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Consul.xml
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.csproj.AssemblyReference.cache
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.AssemblyInfoInputs.cache
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.AssemblyInfo.cs
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.csproj.CoreCompileInputs.cache
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.csproj.Up2Date
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.dll
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/refint/Shared.dll
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.pdb
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/ref/Shared.dll

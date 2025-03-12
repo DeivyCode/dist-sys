@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VvywDpMxfk8=",
+  "success": true,
+  "projectFilePath": "/home/deivy/Projects/dist-sys/src/order-service/order-service.csproj",
+  "expectedPackageFiles": [
+    "/home/deivy/.nuget/packages/microsoft.aspnetcore.openapi/9.0.3/microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
+    "/home/deivy/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
