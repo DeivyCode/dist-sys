@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "VvywDpMxfk8=",
+  "dgSpecHash": "/7N67t5cVS8=",
   "success": true,
   "projectFilePath": "/home/deivy/Projects/dist-sys/src/order-service/order-service.csproj",
   "expectedPackageFiles": [
+    "/home/deivy/.nuget/packages/consul/1.7.14.7/consul.1.7.14.7.nupkg.sha512",
     "/home/deivy/.nuget/packages/microsoft.aspnetcore.openapi/9.0.3/microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512",
-    "/home/deivy/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+    "/home/deivy/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/deivy/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/deivy/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

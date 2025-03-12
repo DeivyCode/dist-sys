@@ -1,8 +1,21 @@
+using Consul;
+using order_service;
+using Shared.ServiceDiscovery;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+builder.Services.AddMemoryCache();
+builder.Services.Configure<ServiceRegistration>(builder.Configuration.GetSection(nameof(ServiceRegistration)));
+builder.Services.AddSingleton<IConsulClient>(consul => new ConsulClient(consulConfig =>
+{
+    consulConfig.Address = new Uri(builder.Configuration["Consul:Host"] ??
+                                   throw new ArgumentException(" Consul host is not set"));
+}));
+builder.Services.AddSingleton<IServiceDiscovery, ConsultProvider>();
+builder.Services.AddWareHouseHttpClient();
 
 var app = builder.Build();
 
@@ -14,28 +27,4 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-    {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast");
-
-app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+await app.RunAsync();

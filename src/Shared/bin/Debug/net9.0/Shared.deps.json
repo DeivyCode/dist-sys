@@ -9,6 +9,8 @@
       "Shared/1.0.0": {
         "dependencies": {
           "Consul": "1.7.14.7",
+          "Microsoft.Extensions.Caching.Abstractions": "9.0.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.0.0"
         },
@@ -21,6 +23,22 @@
           "Consul.dll": {
             "assemblyVersion": "1.7.14.7",
             "fileVersion": "1.7.14.7"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/9.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.325.11113"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.325.11113"
           }
         }
       },
@@ -39,6 +57,14 @@
             "fileVersion": "9.0.325.11113"
           }
         }
+      },
+      "Microsoft.Extensions.Primitives/9.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.325.11113"
+          }
+        }
       }
     }
   },
@@ -53,12 +79,27 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.Extensions.Caching.Abstractions/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "Microsoft.Extensions.Logging.Abstractions/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Primitives/9.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

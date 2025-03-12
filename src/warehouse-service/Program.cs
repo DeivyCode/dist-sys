@@ -13,6 +13,7 @@ builder.Configuration.AddUserSecrets("b48748b7-fd77-4285-ab9d-6c13d28ef4de");
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddLogging();
+builder.Services.AddMemoryCache();
 builder.Services.AddScoped<IStockService, StockService>();
 builder.Services.AddSingleton<IConsulClient>(consul => new ConsulClient(consulConfig =>
 {

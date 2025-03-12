@@ -15,3 +15,7 @@
 /home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/refint/Shared.dll
 /home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.pdb
 /home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/ref/Shared.dll
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/deivy/Projects/dist-sys/src/Shared/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/home/deivy/Projects/dist-sys/src/Shared/obj/Debug/net9.0/Shared.sourcelink.json

@@ -10,6 +10,12 @@
       <Reference Include="Consul">
         <HintPath>..\..\..\..\.nuget\packages\consul\1.7.14.7\lib\netstandard2.0\Consul.dll</HintPath>
       </Reference>
+      <Reference Include="Microsoft.Extensions.Caching.Abstractions">
+        <HintPath>..\..\..\..\.dotnet\shared\Microsoft.AspNetCore.App\9.0.3\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Extensions.Configuration.Abstractions">
+        <HintPath>..\..\..\..\.dotnet\shared\Microsoft.AspNetCore.App\9.0.3\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      </Reference>
       <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
         <HintPath>..\..\..\..\.dotnet\shared\Microsoft.AspNetCore.App\9.0.3\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
       </Reference>
